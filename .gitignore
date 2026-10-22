@@ -1,0 +1,17 @@
+/build/
+/dist/
+/source/build/
+/LightMon.exe
+/LightMonCpu.exe
+/LightMon.ini
+*.traffic
+*.log
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.tmp
+.vs/
+.env
+.env.*
