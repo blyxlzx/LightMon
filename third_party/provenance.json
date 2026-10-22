@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "verified_utc": "2026-10-22T08:06:30.6932657Z",
+  "pawnio_modules": {
+    "project_url": "https://github.com/namazso/PawnIO.Modules",
+    "version": "0.2.11",
+    "source_commit": "52a7e536dff3e53c96917a28caac5e0fa6510696",
+    "release_url": "https://github.com/namazso/PawnIO.Modules/releases/tag/0.2.11",
+    "release_archive_url": "https://github.com/namazso/PawnIO.Modules/releases/download/0.2.11/release_0_2_11.zip",
+    "release_archive_sha256": "43608cb89bc84247fef1368a139013f7d043e17db6d6c8dfc9b46bf0905a81f4",
+    "original_source_archive_url": "https://codeload.github.com/namazso/PawnIO.Modules/zip/52a7e536dff3e53c96917a28caac5e0fa6510696",
+    "original_source_archive_sha256": "3766588abec0a353aa8824a1f138a443a4e54c62a38eec30b2d44d770c59e62a",
+    "included_source_archive": "third_party/archives/PawnIO.Modules-0.2.11-source-no-toolchain.zip",
+    "included_source_archive_is_original_download": false,
+    "included_source_files": 37,
+    "all_included_source_file_bytes_match_official_archive": true,
+    "verification": "Official full source and release archives downloaded again; SHA256 and all 37 retained source entries verified. Packaged AMDFamily17.bin matches official release.",
+    "module_binary_sha256": "dae74615761b78bdf064dfb3e136252ddcc6fc727d88f14738d0e5800d427a91",
+    "module_source_sha256": "8a1808a2e51e184f96d17362991ae900c65a1a23135a68c256ec6759e8297bb9",
+    "omitted_toolchain_rpms": [
+      {
+        "path": "_pawn/pawn-4.1.7152-1.el9.x86_64.rpm",
+        "bytes": 265961,
+        "sha256": "7B02FA557FA2E3DCDC40A76579F30B2D7387566C102C98F105316CE0AB052F25",
+        "source_url": "https://raw.githubusercontent.com/namazso/PawnIO.Modules/52a7e536dff3e53c96917a28caac5e0fa6510696/_pawn/pawn-4.1.7152-1.el9.x86_64.rpm"
+      },
+      {
+        "path": "_pawn/pawn-4.1.7152-1.el9.src.rpm",
+        "bytes": 659082,
+        "sha256": "6426BE835416DF4AC8296739289825FDA03388324B15E677CEC3589B2A22C032",
+        "source_url": "https://raw.githubusercontent.com/namazso/PawnIO.Modules/52a7e536dff3e53c96917a28caac5e0fa6510696/_pawn/pawn-4.1.7152-1.el9.src.rpm"
+      }
+    ],
+    "driver_bundled": false,
+    "signed_module_independently_rebuilt": false,
+    "signature_limit": "The official signed blob is supplied unchanged. Upstream signing keys are not available to this project. A locally built AMX is not the signed BIN."
+  },
+  "nvidia_nvml": {
+    "header_source": "https://github.com/NVIDIA/go-nvml/blob/6b38eea7ed6854b19001f44231e9385661e90c46/pkg/nvml/nvml.h",
+    "header_version": "13.4.92",
+    "notice": "LICENSES/NVIDIA-NVML-Notice.txt",
+    "usage": "Minimal ABI declarations; dynamically loads the already-installed driver library. No NVIDIA binaries bundled."
+  },
+  "inno_setup": {
+    "project_url": "https://jrsoftware.org/",
+    "license_source": "https://jrsoftware.org/files/is/license.txt",
+    "license": "LICENSES/Inno-Setup-License.txt",
+    "usage": "Installer engine; compiler is an external build prerequisite.",
+    "translation": {
+      "path": "packaging/ChineseSimplified.isl",
+      "source_url": "https://github.com/jrsoftware/issrc/blob/6ef32198ef1f7b7b375cd4b6b90896c2a58eb4c2/Files/Languages/ChineseSimplified.isl",
+      "sha256": "e0b0b350e2245f3c5e65586dfe43d574f6e7f06f2261149aba284954b3fc9a8d",
+      "official_source_text_verified": true,
+      "maintainer": "Zhenghan Yang (Kira)",
+      "license_source": "https://raw.githubusercontent.com/kira-96/Inno-Setup-Chinese-Simplified-Translation/cc1fb6b2f11ae430876ea07845679aefe9516093/LICENSE",
+      "license": "LICENSES/Inno-ChineseSimplified-MIT.txt"
+    }
+  },
+  "files": [
+    {
+      "path": "LICENSES/Inno-Setup-License.txt",
+      "bytes": 1521,
+      "sha256": "2e5346868c2a18434489824e11d65c3031620f792fefc415d05f19cd441abf5c"
+    },
+    {
+      "path": "LICENSES/LGPL-2.1.txt",
+      "bytes": 26530,
+      "sha256": "dc626520dcd53a22f727af3ee42c770e56c97a64fe3adb063799d8ab032fe551"
+    },
+    {
+      "path": "LICENSES/NVIDIA-NVML-Notice.txt",
+      "bytes": 1731,
+      "sha256": "77f9ade411a9501fdf745cd09deda10921747e855d7d2aa628373bc4e442ce09"
+    },
+    {
+      "path": "LICENSES/PawnIO-Headers-0BSD.txt",
+      "bytes": 739,
+      "sha256": "ed9e4f1c3da0187369cb40fb529fafe7999aef6e556200385aaec0904927a660"
+    },
+    {
+      "path": "third_party/archives/PawnIO.Modules-0.2.11-source-no-toolchain.zip",
+      "bytes": 132911,
+      "sha256": "dbf00644fff64e7ca12fe7ed1331c6a3acabd1857931ff7df41a88689653ec1d"
+    },
+    {
+      "path": "third_party/PawnIO.Modules-0.2.11/AMDFamily17.bin",
+      "bytes": 10652,
+      "sha256": "dae74615761b78bdf064dfb3e136252ddcc6fc727d88f14738d0e5800d427a91"
+    },
+    {
+      "path": "third_party/PawnIO.Modules-0.2.11/AMDFamily17.p",
+      "bytes": 8004,
+      "sha256": "8a1808a2e51e184f96d17362991ae900c65a1a23135a68c256ec6759e8297bb9"
+    },
+    {
+      "path": "third_party/PawnIO.Modules-0.2.11/COPYING",
+      "bytes": 26530,
+      "sha256": "dc626520dcd53a22f727af3ee42c770e56c97a64fe3adb063799d8ab032fe551"
+    },
+    {
+      "path": "third_party/PawnIO.Modules-0.2.11/COPYING-release.txt",
+      "bytes": 27032,
+      "sha256": "1e7e6bae5a5bde32f1ae5a7c37a082d1ab03cf89354f7f936ac40be9e39a6531"
+    },
+    {
+      "path": "third_party/PawnIO.Modules-0.2.11/include/core.inc",
+      "bytes": 1672,
+      "sha256": "3c3fdb0bb54d48792e5fadf4a17607023a35f25f1c006893a114342bac9d6aff"
+    },
+    {
+      "path": "third_party/PawnIO.Modules-0.2.11/include/extra.inc",
+      "bytes": 3223,
+      "sha256": "4780c6ba2489264ff5982f2f9a5e2b7f4e8ec8951adfe8ef88e728592f1b2e94"
+    },
+    {
+      "path": "third_party/PawnIO.Modules-0.2.11/include/native.inc",
+      "bytes": 14505,
+      "sha256": "b526bf69d66ebe00b22ea8609d9b6c2073ba6eeaf0730a2cf32477d0b64ee395"
+    },
+    {
+      "path": "third_party/PawnIO.Modules-0.2.11/include/ntstatus.inc",
+      "bytes": 211639,
+      "sha256": "bcb76abca4bc951f286074b59f64fb950e384a2204d4dfe6d1e0d03502d0bd2a"
+    },
+    {
+      "path": "third_party/PawnIO.Modules-0.2.11/include/pawnio.inc",
+      "bytes": 1765,
+      "sha256": "0809f5964d7707272398b212879078f62e08bc579a3def0283a1a059cf9e72a4"
+    },
+    {
+      "path": "third_party/PawnIO.Modules-0.2.11/include/registry.inc",
+      "bytes": 18132,
+      "sha256": "ef33b339849f949b07792936f749de8eca1fa72b4348096c5b644b364e0870ad"
+    },
+    {
+      "path": "third_party/PawnIO.Modules-0.2.11/include/util.inc",
+      "bytes": 6594,
+      "sha256": "ab390f9d9e244c2f7a5932f42a7e79194d100dc4a16549dbc31f9cf4932f3027"
+    },
+    {
+      "path": "third_party/PawnIO.Modules-0.2.11/README.md",
+      "bytes": 341,
+      "sha256": "4fe9bf550c50819ec563d3c18f0fb4770c2ad78d03f882bb9c6e8153314a87a0"
+    },
+    {
+      "path": "LICENSES/Inno-ChineseSimplified-MIT.txt",
+      "bytes": 1072,
+      "sha256": "02f0dd3b98833040147d01daf91243c24392a33ddced674152220b5216782c6a"
+    }
+  ]
+}
